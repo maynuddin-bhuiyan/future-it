@@ -1,0 +1,203 @@
+.OurHistory {
+    padding: 150px 0px;
+}
+
+.OurHistory>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 555px;
+}
+
+.HistoryText h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.HistoryText {
+    max-width: 555px;
+}
+
+.HistoryText p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #0a021d;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.HistoryImg {
+    background: url("../../../public/images/history/blockchain\ 3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.CardImage {
+    text-align: center;
+    position: relative;
+}
+
+.playButton {
+    background: #ffd9d9;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 15%);
+    padding: 30px;
+    width: 88px;
+    line-height: 35px;
+    height: 88px;
+    position: absolute;
+    top: 0px;
+    left: 67px;
+}
+
+.CardText {
+    width: 306px;
+    line-height: 35px;
+    height: 180px;
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.CardText h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 180px;
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+}
+
+.CardText p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.playButton i {
+    font-size: 30px;
+    color: #6128e3;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+    .HistoryImg {
+        width: 100%;
+        margin-top: 50px;
+        height: 335px;
+        margin-bottom: 50px;
+    }
+
+    .CardImage {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .OurHistory {
+        padding: 80px 0px;
+    }
+
+    .OurHistory>h2 {
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 48px;
+    }
+
+    .HistoryText h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .CardText {
+        left: 0px;
+        width: 270px;
+        bottom: -40px;
+    }
+
+    .playButton {
+        left: 0px;
+    }
+
+    .CardText h2 {
+        font-size: 90px;
+    }
+
+    .CardText p {
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .HistoryImg {
+        width: 100%;
+        height: 358px;
+    }
+
+    .CardImage {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .OurHistory>h2 {
+        font-size: 36px;
+    }
+
+    .CardText {
+        left: 5px;
+    }
+
+    .playButton {
+        left: 0px;
+    }
+
+    .OurHistory {
+        padding: 130px 0px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .HistoryImg {
+        width: 100%;
+    }
+
+    .CardText {
+        left: 20px;
+    }
+
+    .playButton {
+        left: 0px;
+    }
+}

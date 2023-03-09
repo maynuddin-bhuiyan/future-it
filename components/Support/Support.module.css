@@ -1,0 +1,294 @@
+.supportHero {
+    background-color: #0a021d;
+    padding: 0px 0px 100px;
+    margin-top: 80px;
+}
+
+.supportHero h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.supportHero>p {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.8;
+    max-width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.supportHero .supportCard {
+    text-align: center;
+    box-shadow: 0 0.7px 8px rgb(255 255 255 / 35%);
+    padding: 30px;
+    border-radius: 0.5px;
+}
+
+.cardImg {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #f6f7fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.cardImg i {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0a021d;
+    transition: all linear 0.2s;
+}
+
+.cardImg:hover {
+    background-color: #ffd9d9 !important;
+}
+
+.cardImg:hover i {
+    color: #6128e3 !important;
+}
+
+.supportCard a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: Inter, sans-serif;
+    color: #6638d4;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.supportCard p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.supportCard>h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-transform: lowercase;
+    opacity: 0.8;
+    margin: 0px !important;
+}
+
+
+.supportDetails {
+    background-color: #f6f7fb;
+    padding: 100px 0px;
+}
+
+.supportDetails h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.supportDetails h2 span {
+    color: #6638d4;
+}
+
+.supportDetails>p {
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#supportDetails {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#supportDetails:nth-child(2) {
+    flex-direction: row-reverse !important;
+}
+
+#supportDetails .detailsText h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #0a021d;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.detailsText h3 span {
+    color: #6638d4;
+}
+
+.detailsText p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #0a021d;
+    text-transform: lowercase;
+    opacity: 0.8;
+    margin: 0px !important;
+}
+
+.supportCard {
+    background-color: #0a021d;
+    padding: 100px 0px;
+}
+
+.cardDetails {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.cardDetails .cardText h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #f6f7fb;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.cardText h3 span {
+    color: #6638d4;
+}
+
+.cardText p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #f6f7fb;
+    text-transform: lowercase;
+    opacity: 0.8;
+    margin: 0px !important;
+}
+
+.supportFooter {
+    padding: 100px 0px;
+}
+
+.supportFooter>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.supportFooter>h2 span {
+    color: #6638d4;
+}
+
+.supportFooter>p {
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.8;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.supportItem {
+    text-align: center;
+}
+
+.supportItem p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #0a021d;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.supportContact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 40px 0px;
+}
+
+.supportContact h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #6638d4;
+    text-transform: capitalize;
+    margin: 0px;
+}

@@ -1,0 +1,153 @@
+.heroSec {
+    padding: 20px 0px 100px;
+    margin-top: 80px;
+}
+
+.heroSecText {
+    padding-left: 30px;
+}
+
+.heroSecText h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 75px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-right: 70px;
+}
+
+.heroSecText h1 .TextColor {
+    color: #6128e3;
+    display: block;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 64px !important;
+    line-height: 110% !important;
+}
+
+.heroSecText h1 .TextRetro {
+    color: #6128e3;
+    font-weight: 400 !important;
+    letter-spacing: -0.01em !important;
+    line-height: 110% !important;
+}
+
+.heroSecText p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 170%;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    text-align: left !important;
+}
+
+.heroSecBtn {
+    padding: 20px 40px;
+    background: #6128e3;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition: all linear 0.2s;
+}
+
+.heroSecImg {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0px;
+}
+
+.heroSecImg .ImgDiv img {
+    text-align: center;
+}
+
+.video {
+    text-align: end;
+    width: 494px;
+    height: 494px;
+}
+
+.heroSecBtn:hover {
+    background-color: #ffffff !important;
+    color: #6128e3 !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .heroSec {
+        padding: 50px 0px 80px;
+    }
+
+    .heroSecImg .ImgDiv {
+        margin-top: 30px;
+    }
+
+    .heroSecText h1 {
+        font-size: 36px;
+        line-height: 110%;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .heroSecText h1 .TextColor {
+        font-size: 36px !important;
+    }
+
+    .heroSecText p {
+        font-size: 16px;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .heroSecText h1 {
+        font-size: 48px;
+        line-height: 110%;
+        padding-right: 0px;
+    }
+
+    .heroSecText h1 .TextColor {
+        font-size: 48px !important;
+    }
+
+    .heroSecText p {
+        font-size: 18px;
+    }
+
+    .heroSecContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .heroSecContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .heroSecText h1 {
+        padding-right: 0px;
+    }
+}

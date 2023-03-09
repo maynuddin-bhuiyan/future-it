@@ -1,0 +1,108 @@
+.whatYouGet {
+    background: #0a021d;
+    padding: 150px 0px;
+}
+
+.whatYouGetcontainer>h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.whatYouGetcontainer>p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+
+.whatYouGetCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.whatYouGetCard {
+    background: #ffffff;
+    padding: 30px;
+    transition: all 0.5s;
+    border: 1px solid #6128e3;
+}
+
+.whatYouGetCardImg {
+    margin-bottom: 20px;
+}
+
+.whatYouGetCard h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 170%;
+    color: #0a021d;
+    margin-bottom: 20px;
+}
+
+.whatYouGetCard p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: #0a021d;
+}
+
+.whatYouGetCard:hover {
+    background: #f7f3ff;
+    border: 1px solid #6128e3;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .whatYouGet {
+        background: #0a021d;
+        padding: 80px 0px;
+    }
+
+    .whatYouGetcontainer>h2 {
+        font-size: 32px;
+    }
+
+    .whatYouGetCards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .whatYouGet {
+        padding: 130px 0px;
+    }
+
+    .whatYouGetcontainer>h2 {
+        font-size: 36px;
+    }
+
+    .whatYouGetCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}

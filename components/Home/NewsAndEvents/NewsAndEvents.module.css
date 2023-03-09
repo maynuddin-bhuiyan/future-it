@@ -1,0 +1,231 @@
+.NewsAndEvents {
+    margin: 100px 0px;
+}
+
+.NewsAndEvents>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.BlogCard {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.BlogStoryCard {
+    background-color: #ffffff;
+    max-width: 840px;
+}
+
+.BlogStoryCard .CardImg {
+    text-align: center;
+}
+
+.Blogtext p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #3b354a;
+    font-family: "Inter";
+    padding: 0px 0px;
+}
+
+.Blogtext>h3 {
+    padding: 0px !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #6128e3;
+    font-family: "Inter";
+}
+
+.BlogCard h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #6128e3;
+    font-family: "Inter";
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+.Blogtext>h2 {
+    padding: 0px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Inter";
+}
+
+.BlogCard>h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Inter";
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.Blogtext {
+    padding: 10px 40px;
+    padding-bottom: 0px;
+}
+
+.Blogtext>.dateAndTime {
+    padding: 0px 0px;
+    padding-bottom: 25px;
+}
+
+.dateAndTime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.dateAndTime>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #3b354a;
+    font-family: "Inter";
+    margin: 0px;
+}
+
+
+.CaseStudyFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.CaseStudyFooter h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: rgba(10, 2, 29, 0.8);
+    font-family: "Inter", sans-serif;
+    max-width: 530px;
+    text-align: left;
+}
+
+.CaseStudyFooter h2 span {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-transform: capitalize !important;
+    color: #6128e3 !important;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .BlogCard {
+        width: 220px;
+        height: 382px;
+    }
+
+    .CaseStudyFooter h2 {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .PaginationItem {
+        width: 40px !important;
+        height: 40px !important;
+        padding: 10px 10px !important;
+        margin-right: 7px !important;
+    }
+
+    .PaginationButton {
+        padding: 10px 10px !important;
+        margin-right: 7px !important;
+    }
+
+    .BlogCard {
+        width: 360px;
+    }
+
+    .NewsAndEvents h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .BlogHero h2 {
+        font-size: 45px;
+        line-height: 60px;
+        margin-top: 44px;
+    }
+
+    .BlogStoryCard {
+        margin-bottom: 30px;
+    }
+
+    .Blogtext h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+        font-family: "Inter";
+    }
+
+    .blogPagination {
+        margin-left: -30px !important;
+        margin-top: 0px !important;
+    }
+
+    .CaseStudyFooter {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .blogPagination {
+        padding: 10px 0px !important;
+        margin-left: -50px !important;
+    }
+
+    .BlogCard {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .BlogCard {
+        width: 300px;
+    }
+}

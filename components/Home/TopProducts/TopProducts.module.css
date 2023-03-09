@@ -1,0 +1,96 @@
+.TopProducts {
+    margin: 100px 0px 150px;
+}
+
+.TopProducts>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.Products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.Products .buttons {
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+
+.buttons p {
+    cursor: pointer;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #0a021d;
+    text-transform: capitalize;
+    padding: 10px 30px;
+}
+
+.active p {
+    background: #6128e3;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: aliceblue;
+}
+
+.HeroCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.HeroCard p {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.techIcons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.techIconss {
+    display: none;
+}
+
+.productImg {
+    display: none;
+}
+
+.product {
+    text-align: center;
+    background-color: #6128e3;
+    padding: 30px 0px;
+}
+
+.iconsInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

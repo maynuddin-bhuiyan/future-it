@@ -1,0 +1,27 @@
+.OurAwards h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0A021D;
+    opacity: 0.65;
+    text-align: left;
+}
+
+.AwardsImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .AwardsImg {
+        display: block;
+    }
+
+    .OurAwards {
+        background-color: #0A021D;
+    }
+}

@@ -1,0 +1,302 @@
+.Footer {
+    background-color: #0a021d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.footerTopBg {
+    background-color: #ffffff;
+    box-shadow: 0px 0 5px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+}
+
+.footertop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+}
+
+.Bottomtext {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    gap: 15px;
+}
+
+.text i {
+    color: #0a021d;
+    opacity: 0.8;
+}
+
+.text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    letter-spacing: -0.01em;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    opacity: 0.9;
+}
+
+
+/* .Footer::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background: url(../../../public/images/16\ Footer/BG.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip: border-box;
+      width: 100%;
+      height: 100%;
+  } */
+
+.BottomImg h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    opacity: 0.9;
+}
+
+.Touch {
+    margin-top: 20px;
+}
+
+.Touch h2 {
+    text-align: center !important;
+}
+
+.stayTouch {}
+
+.FooterTouch {
+    margin-top: 20px;
+}
+
+.Footer h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    text-align: left !important;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+
+
+.ProjectCard {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.Project {
+    margin-bottom: 20px;
+}
+
+
+.Project p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    font-family: Inter, sans-serif;
+    color: #6638d4;
+    margin-bottom: 14px;
+    margin-top: 5px;
+}
+
+.Project a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-transform: lowercase;
+    opacity: 0.8;
+}
+
+.ProjectLink {
+    background-color: #f1f1f1;
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.CompanyItam {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 77px;
+    margin: 20px;
+}
+
+.Company a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: block;
+    transition: all linear 0.2s;
+}
+
+.Company a:hover {
+    color: #6128e3;
+}
+
+.Contact {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.CardText {
+    margin-bottom: 20px;
+}
+
+.CardImg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.CardText h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-family: "Inter", sans-serif;
+    color: #6128e3;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.CardText p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+    margin-bottom: 14px;
+    margin-top: 0;
+    opacity: 0.8;
+}
+
+.CardText a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    margin-bottom: 20px;
+}
+
+
+.FooterBottomLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Footerlogo p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0a021d;
+    opacity: 0.8;
+    margin: 0px;
+}
+
+.CardText a:hover {
+    color: #6128e3;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6128e3;
+}
+
+.FooterBottom {
+    background-color: #f1f1f1;
+}
+
+
+.Footerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Bottomtext {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .footertop {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .Footer {
+        padding-top: 350px;
+    }
+
+    .FooterBottomLogo {
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+@media only screen and (max-width: 320px) {
+    .Footer {
+        /* padding-top: 185px; */
+    }
+}

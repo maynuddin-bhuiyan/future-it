@@ -1,0 +1,35 @@
+.Reseller {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resellerText h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 170%;
+    color: #0a021d;
+}
+
+
+.resellerText p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif;
+}
+
+@media only screen and (max-width: 576px) {
+    .Reseller {
+        display: block;
+        padding: 30px 15px;
+    }
+}

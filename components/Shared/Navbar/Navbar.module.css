@@ -1,0 +1,545 @@
+.Navbar {
+    padding: 22px 0px;
+    background-color: #0a021d !important;
+    box-shadow: 0px 0 5px rgb(255 255 255 / 20%);
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 9999999999999;
+    width: 100%;
+}
+
+#Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar ul li a {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-right: 30px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+    padding: 0px !important;
+}
+
+.Navbar ul li a i {
+    margin-left: 7px;
+}
+
+.Navbar ul li a:hover {
+    color: #6128e3 !important;
+}
+
+.nav_Drop_list {
+    margin-bottom: 30px;
+}
+
+.nav_Drop_list .muneItem {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav_Drop_list .muneItem .munetext h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif !important;
+}
+
+.NavbarBtn {
+    padding: 7px 12px;
+    background: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #6128e3;
+    transition: all linear 0.2s;
+    border: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.NavPhoBtn {
+    padding: 7px 12px;
+    background: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #6128e3;
+    transition: all linear 0.2s;
+    border: 0px;
+}
+
+.NavbarBtn:hover {
+    background-color: #ffd9d9 !important;
+    color: #6128e3 !important;
+}
+
+.NavPhoBtn:hover {
+    background-color: #ffd9d9 !important;
+    color: #6128e3 !important;
+}
+
+.nav_list::marker {
+    color: transparent;
+}
+
+.nav_list {
+    padding: 16px 0px;
+}
+
+.nav_list a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d !important;
+}
+
+.NavbarBtnContact {
+    background-color: #6128e3;
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 7px 0px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0px 6px 35px 6px;
+    position: relative;
+    z-index: 10;
+}
+
+.NavbarBtnContact::before,
+.NavbarBtnContact::after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 0;
+    background-color: #ffb92f;
+    content: "";
+    color: #ffffff;
+}
+
+.NavbarBtnContact::before {
+    left: 0;
+    color: #ffffff;
+}
+
+.NavbarBtnContact::after {
+    right: 0;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.NavbarBtnContact:hover::before {
+    width: 100%;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.NavbarBtnContact:hover::after {
+    background-color: transparent;
+    width: 100%;
+    color: #ffffff;
+}
+
+.NavbarBtnContact:hover {
+    color: black;
+}
+
+.dropDown {
+    width: 100%;
+    z-index: 999999;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    height: max-content;
+    background: #f7f3ff !important;
+    padding: 20px 0px 0px 20px !important;
+}
+
+.dropDown .dropDownMune {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 9999999;
+    width: 75%;
+    padding: 0px;
+    border-right: 1px solid #e7e6e8;
+}
+
+.dropDownMune .muneItem {
+    cursor: pointer;
+    transition: all linear 0.2s;
+    max-width: 450px;
+    padding: 10px;
+}
+
+.muneImg h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: left;
+    color: #0a021d;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+}
+
+.munetext {
+    width: 100%;
+}
+
+.munetext p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0a021d;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin: 0px;
+}
+
+.muneBtn {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 27px !important;
+    text-align: center !important;
+    color: #6128e3 !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+.muneBtn:hover {
+    color: #0a021d !important;
+}
+
+.muneBtn {
+    display: flex;
+    align-items: left;
+    margin: 0px;
+    justify-content: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #6128e3;
+    font-family: "Inter", sans-serif !important;
+}
+
+.muneBtn p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #6128e3;
+    font-family: "Inter", sans-serif !important;
+    margin-right: 5px;
+}
+
+.dropDown .dropDownItam {
+    z-index: 9999999;
+    width: 25%;
+    text-align: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.dropDownItam button {
+    width: auto !important;
+    padding: 10px 20px;
+    border: 0px;
+    margin: 0 auto;
+}
+
+
+.dropDownItam h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif !important;
+    margin: 20px 70px;
+}
+
+.dropDownItam p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif !important;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.dropDownItam a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #6128e3;
+    font-family: "Inter", sans-serif !important;
+}
+
+.navbarCollapse {
+    position: relative;
+}
+
+.apexdvContacts {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    border: 1px solid #ceccd2;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.24);
+    background: #ffffff;
+    z-index: 9999;
+    width: max-content;
+}
+
+.apexdvContacts h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    font-family: "Inter", sans-serif !important;
+    padding: 20px 30px 0px;
+}
+
+.apexdvContacts .Contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+
+.Contact p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #0a021d;
+    font-family: "Inter", sans-serif !important;
+    text-align: left;
+    margin: 0px;
+    margin-left: 10px;
+    text-transform: lowercase !important;
+}
+
+.ProjectLink {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px 30px 20px;
+    border-top: 1px solid #ceccd2;
+}
+
+.HRDepartment {
+    background-color: #6128e3;
+    padding: 30px;
+}
+
+.HRDepartment h3 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif !important;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.Department {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.Department p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    padding-left: 10px;
+    text-transform: lowercase !important;
+}
+
+.nav_list_service {
+    box-shadow: none !important;
+    border: 0px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif !important;
+}
+
+.list_service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: max-content;
+    border-bottom: 1px solid #ceccd2;
+    margin-bottom: 20px;
+}
+
+.list_service h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    font-family: "Inter", sans-serif !important;
+    color: #0a021d;
+}
+
+.NavbarDropDownList {
+    padding: 0px 20px;
+}
+
+.mobileTav {
+    display: none !important;
+}
+
+.NavbarDropDownList .nav_list a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    font-family: "Inter", sans-serif !important;
+}
+
+/* Media Query for  Mobile Devices and  Tablets, Ipads */
+@media only screen and (max-width: 768px) {
+    #Navbar {
+        justify-content: space-between;
+    }
+
+    .nav_list_service a {
+        color: #0a021d !important;
+    }
+
+    .mobileTav {
+        display: block !important;
+    }
+
+    .NavPhoBtn {
+        position: absolute;
+        top: 19px;
+        right: 75px;
+        padding: 5px 10px;
+    }
+
+    .apexdvContacts {
+        visibility: visible !important;
+        right: 0px;
+        top: 50px;
+    }
+
+    .dropDown .dropDownItam {
+        display: none;
+    }
+
+    .dropDown .dropDownMune {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .munetext p {
+        display: none;
+    }
+
+    .munetext a {
+        display: none;
+    }
+
+    .dropDownMune .muneItem {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mobileTav {
+        display: block !important;
+    }
+
+
+
+    .NavPhoBtn {
+        right: 65px;
+    }
+
+    .dropDown .dropDownMune {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999999;
+        width: 75%;
+        padding: 0px;
+        border-right: 1px solid #e7e6e8;
+    }
+
+    .dropDown .dropDownItam {
+        z-index: 9999999;
+        width: 25%;
+        text-align: center;
+        padding: 0px;
+        cursor: pointer;
+        display: none;
+    }
+}

@@ -1,0 +1,179 @@
+.contact {
+    padding: 0px 0px 100px;
+    margin-top: 80px;
+}
+
+.contact>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.contact>p {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sales {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sales p {
+    max-width: 280px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.sales i {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0a021d;
+    transition: all linear 0.2s;
+}
+
+.sales .salesIcon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #f6f7fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.salesIcon:hover {
+    background-color: #ffd9d9 !important;
+}
+
+.salesIcon:hover i {
+    color: #6128e3 !important;
+}
+
+
+.contactForm {
+    padding: 100px 0px;
+}
+
+
+
+.contactForm .text h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form {
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 15%);
+    padding: 32px;
+}
+
+.form h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #0a021d;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form_input input {
+    border: 1px solid #ceccd2;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    background: #ffffff;
+    outline: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0a021d;
+}
+
+
+.form_textarea textarea {
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ceccd2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    background: #ffffff;
+    outline: 0;
+    color: #0a021d;
+    height: 100px;
+}
+
+
+.form_input::placeholder,
+.form_textarea::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0a021d;
+}
+
+.form form input:focus,
+.form form textarea:focus {
+    border: 1px solid #6128e3;
+    background: #f7f3ff;
+}
+
+.form button {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.googleMap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
