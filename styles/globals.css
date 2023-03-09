@@ -201,3 +201,14 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+
+@media only screen and (max-width: 320px) {
+  .btn {
+    width: auto;
+  }
+
+  .button {
+    width: auto;
+  }
+}
